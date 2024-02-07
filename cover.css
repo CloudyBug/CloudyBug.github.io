@@ -28,18 +28,23 @@
   }
 
   .cornerImage {
-    
-    position: fixed;
+    position:absolute;
     bottom: 0;
     right: 0;
-    max-width: 20px;
-
+    max-width: 30%;
+    height: auto;
   }
 
   .bannerImage {
     position:fixed;
     left: 20vh;
   }
+
+  .bottomRight {
+    position: absolute;
+    width: 400px;
+  }
+  
 
 /*
  * Base structure
